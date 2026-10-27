@@ -23,6 +23,7 @@ Notebooks are numbered in the order they were worked through. Original week/day 
 - [`17-kmeans-elbow-blobs-wine-breast-cancer.ipynb`](17-kmeans-elbow-blobs-wine-breast-cancer.ipynb)
 - [`18-kmeans-and-hierarchical-clustering-wine-and-customers.ipynb`](18-kmeans-and-hierarchical-clustering-wine-and-customers.ipynb)
 - [`19-credit-card-customers-hierarchical-clustering.ipynb`](19-credit-card-customers-hierarchical-clustering.ipynb)
+- [`20-air-quality-wine-feature-selection-and-outliers-draft.ipynb`](20-air-quality-wine-feature-selection-and-outliers-draft.ipynb)
 
 These are practice notebooks: some contain exploratory or unfinished cells, and saved outputs are from the original runs.
 

@@ -1,6 +1,6 @@
 # Logistic Regression: scikit-learn and From Scratch
 
-Fits scikit-learn's logistic regression on the breast-cancer dataset with scaling and a train/test split, evaluates it with accuracy, confusion matrix and classification report, then re-implements logistic regression from scratch with gradient descent on a synthetic dataset (loss curve and decision boundary).
+Fits a scikit-learn logistic regression on the breast-cancer data (stratified split, scaler inside a pipeline, majority baseline, cross-validated accuracy / recall / ROC-AUC), then re-implements logistic regression from scratch with gradient descent on a held-out toy dataset and checks it against scikit-learn without regularisation.
 
 | | |
 |---|---|
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 jupyter lab projects/logistic-regression-breast-cancer/logistic-regression-sklearn-and-from-scratch.ipynb
 ```
 
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run (Python 3.13, scikit-learn 1.9, pandas 3.0).
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

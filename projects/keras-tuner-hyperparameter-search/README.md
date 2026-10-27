@@ -1,6 +1,6 @@
 # Hyperparameter Tuning with Keras Tuner
 
-Uses Keras Tuner's `RandomSearch` to tune an ANN and a CNN (Fashion-MNIST and CIFAR-10 via `keras.datasets`), reports the best hyperparameters and retrains the final models.
+Uses Keras Tuner's `RandomSearch` on a stratified 10k subset to tune an ANN (Fashion-MNIST) and a CNN (CIFAR-10), retrains the best configuration on the full training set with early stopping, and evaluates once on the test set against a baseline.
 
 | | |
 |---|---|
@@ -19,8 +19,8 @@ jupyter lab projects/keras-tuner-hyperparameter-search/keras-tuner-ann-fashion-m
 
 ## Notes
 
-- Needs TensorFlow and `keras-tuner`; a GPU is recommended.
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Needs TensorFlow and `keras-tuner`; a GPU is recommended. Revised (stratified tuning subset, seeds, early stopping, baseline) but **not re-run**: all outputs are cleared.
+- Methodology reviewed and revised, but **not re-run** (TensorFlow unavailable); all outputs are cleared.
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

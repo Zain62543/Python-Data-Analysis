@@ -1,6 +1,6 @@
 # Transfer Learning: Feature Extraction and Fine-Tuning
 
-Explains transfer learning, then works two case studies on the filtered cats-vs-dogs image dataset: feature extraction with a pretrained VGG16 and fine-tuning ResNet50, with evaluation plots and a note on overfitting.
+Explains transfer learning, then compares feature extraction (frozen VGG16) with two-stage fine-tuning of ResNet50 on the filtered cats-vs-dogs dataset, using model-specific preprocessing, a validation / test split, early stopping, and one test evaluation for the model chosen on validation.
 
 | | |
 |---|---|
@@ -19,8 +19,8 @@ jupyter lab projects/transfer-learning/transfer-learning-vgg16-and-resnet50-cats
 
 ## Notes
 
-- Needs TensorFlow and internet access; a GPU is recommended.
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Needs TensorFlow, a GPU and internet access. Rewritten to fix preprocessing, data-split and fine-tuning issues (listed at the end of the notebook) but **not yet run**: all outputs are cleared.
+- Rewritten to fix methodological problems, but **not yet run** (TensorFlow, GPU and download unavailable); all outputs are cleared.
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

@@ -1,6 +1,6 @@
 # Convolutional Neural Networks
 
-Builds CNN image classifiers with the Keras functional API on CIFAR-10, visualises learned features, and then trains a CNN on the Rock-Paper-Scissors image dataset.
+Builds CNN image classifiers with the Keras functional API on CIFAR-10 and Rock-Paper-Scissors, with seeds, a deterministic shuffled validation split, per-class reports / confusion matrices and feature-map visualisation.
 
 | | |
 |---|---|
@@ -19,8 +19,8 @@ jupyter lab projects/cnn-image-classification/cnn-cifar10-and-rock-paper-scissor
 
 ## Notes
 
-- Needs TensorFlow; a GPU is recommended. Saved outputs show the original runs.
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Needs TensorFlow; a GPU is recommended. Revised (seeds, deterministic validation split, per-class evaluation) but **not re-run**: unchanged CIFAR-10 cells keep outputs from an earlier unseeded run, changed cells have empty outputs.
+- Methodology reviewed and revised, but **not re-run** (TensorFlow unavailable); see the banner at the top of the notebook for which outputs are from an earlier run.
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

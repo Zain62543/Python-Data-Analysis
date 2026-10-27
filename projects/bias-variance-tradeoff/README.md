@@ -1,6 +1,6 @@
 # Bias, Variance and Over/Underfitting
 
-Explains total error, bias, variance and the trade-off between them. Polynomial fits of degree 1, 3 and 10 on noisy cubic data show under- and overfitting; a `BaggingClassifier` of decision trees on the breast-cancer dataset (with ROC AUC) shows how ensembling reduces variance.
+Explains total error, bias and variance, then measures them **by simulation** on a known cubic function (bias², variance and noise per polynomial degree), shows validation and learning curves with shuffled folds, and compares a single tree with bagging on the breast-cancer data using repeated CV.
 
 | | |
 |---|---|
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 jupyter lab projects/bias-variance-tradeoff/bias-variance-polynomial-fits-and-bagging.ipynb
 ```
 
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run (Python 3.13, scikit-learn 1.9, pandas 3.0).
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

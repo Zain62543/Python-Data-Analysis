@@ -1,6 +1,6 @@
 # Hierarchical Clustering
 
-Covers the intuition and maths of agglomerative clustering: distance metrics, linkage criteria (Ward, single, complete, average), dendrograms and `AgglomerativeClustering`, with PCA for visualisation and a confusion matrix against the true Iris species.
+Covers agglomerative clustering: distance metrics, linkage criteria, dendrograms with a cut line, and `AgglomerativeClustering`. On Iris it compares linkages and raw vs standardised features (silhouette, cophenetic correlation, ARI) and validates clusters against the species with a contingency table, ARI and NMI.
 
 | | |
 |---|---|
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 jupyter lab projects/hierarchical-clustering/hierarchical-clustering-linkage-and-dendrograms.ipynb
 ```
 
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run (Python 3.13, scikit-learn 1.9, pandas 3.0).
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

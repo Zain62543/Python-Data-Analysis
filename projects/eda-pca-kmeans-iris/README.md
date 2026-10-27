@@ -1,13 +1,13 @@
 # Iris: EDA, PCA and K-Means
 
-A structured exploratory analysis of the Iris dataset (structure, summary statistics, missing and duplicate values, target distribution, univariate and bivariate analysis, correlations, outliers), followed by preprocessing, PCA and a K-Means clustering introduction on synthetic blobs.
+Exploratory analysis of the Iris data (structure, duplicates, class balance, pairwise plots, correlations), then K-Means clustering: K chosen with elbow and silhouette together, scaling and seed stability compared, and results validated against the species with ARI / NMI and a contingency table. PCA is used for visualisation.
 
 | | |
 |---|---|
 | **Notebook** | [`iris-eda-pca-and-kmeans.ipynb`](iris-eda-pca-and-kmeans.ipynb) |
 | **Data** | scikit-learn `load_iris`, `make_blobs` |
-| **Techniques** | EDA, dimensionality reduction (PCA), K-Means clustering |
-| **Libraries** | pandas, scikit-learn, Matplotlib |
+| **Techniques** | EDA, K-Means, elbow / silhouette, cluster validation (ARI, NMI), PCA |
+| **Libraries** | pandas, scikit-learn, Seaborn, Matplotlib |
 
 ## Run it
 
@@ -19,8 +19,8 @@ jupyter lab projects/eda-pca-kmeans-iris/iris-eda-pca-and-kmeans.ipynb
 
 ## Notes
 
-- The notebook is titled 'Complete Machine Learning Pipeline'; it contains no supervised models.
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Clustering has no train/test split; labels are used only to validate the result.
+- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run (Python 3.13, scikit-learn 1.9, pandas 3.0).
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

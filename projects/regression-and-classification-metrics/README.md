@@ -1,6 +1,6 @@
 # Regression and Classification Metrics
 
-Computes MAE, MSE, RMSE and R-squared on small worked regression examples, then the main classification metrics (accuracy, precision, recall, F1 from the confusion matrix) and ROC curves with ROC AUC for a logistic-regression model on the breast-cancer dataset.
+Computes MAE, MSE, RMSE and R-squared on small worked examples, then accuracy, precision, recall, F1 and ROC AUC; applies them to a breast-cancer classifier with a stratified split, a majority baseline and a bootstrap confidence interval for AUC.
 
 | | |
 |---|---|
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 jupyter lab projects/regression-and-classification-metrics/regression-and-classification-metrics-roc-auc.ipynb
 ```
 
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run (Python 3.13, scikit-learn 1.9, pandas 3.0).
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

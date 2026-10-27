@@ -33,3 +33,7 @@ Thumbs.db
 *.pptx
 **/Excel Dashboard.xlsx
 
+
+# Keras Tuner search artefacts (generated)
+**/realistic_ann_tuner/
+**/cnn_tuner_results/

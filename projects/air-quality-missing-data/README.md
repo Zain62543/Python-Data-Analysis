@@ -1,13 +1,13 @@
 # Air Quality: Missing-Data Analysis
 
-Visualises and analyses missing values in a daily air-quality time series, then works through transforming, processing, feature engineering and outlier analysis. A final section demonstrates scaling and model-based feature selection on scikit-learn's Wine dataset.
+Profiles the missing values of a daily air-quality series, tests whether the missingness is random, and compares five imputation methods (mean, median, time interpolation, KNN, iterative) by hiding known ozone values and measuring the error over 30 random masks. Outliers are then flagged with IQR, z-score and MAD rules on the raw and log scales, and flagged rather than deleted.
 
 | | |
 |---|---|
 | **Notebook** | [`air-quality-missing-data-and-outliers.ipynb`](air-quality-missing-data-and-outliers.ipynb) |
-| **Data** | `data/air-quality.csv` (153 daily rows, May-Sep 1973: Ozone, Solar.R, Wind, Temp) and `data/airQuality.csv` (same data in its original Month/Day layout, reconstructed; see `DATA.md`) |
-| **Techniques** | Missing-data visualisation, outlier analysis, scaling, `SelectFromModel` with a random forest |
-| **Libraries** | pandas, missingno, SciPy, scikit-learn, Matplotlib |
+| **Data** | `data/airQuality.csv` (153 daily rows, May-Sep 1973: Ozone, Solar.R, Wind, Temp; original Month/Day layout, reconstructed, see `DATA.md`) |
+| **Techniques** | Missingness diagnostics, imputation benchmarking by masking, outlier detection (IQR / z-score / MAD) |
+| **Libraries** | pandas, NumPy, SciPy, scikit-learn, Matplotlib, Seaborn |
 
 ## Run it
 
@@ -19,8 +19,8 @@ jupyter lab projects/air-quality-missing-data/air-quality-missing-data-and-outli
 
 ## Notes
 
-- Needs `missingno` (in `requirements.txt`).
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- The earlier draft that also covered Wine feature selection is kept unedited in `learning-archive/classical-ml/20-...`.
+- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run (Python 3.13, scikit-learn 1.9, pandas 3.0).
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

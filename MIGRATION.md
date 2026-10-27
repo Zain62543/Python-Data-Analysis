@@ -2,9 +2,9 @@
 
 Where every file from the previous layout went. Nothing was deleted without being listed here, and removed files remain in git history.
 
-- 102 files moved or renamed (history preserved with `git mv`)
+- 103 files moved or renamed (history preserved with `git mv`)
 - 9 files removed (exact duplicates or empty stubs)
-- Notebook edits: Colab / widget metadata stripped (it can stop GitHub rendering a notebook); local data paths rewritten to `../../data/...`; remote URLs and all code logic left unchanged.
+- Notebook edits at migration time: Colab / widget metadata stripped (it can stop GitHub rendering a notebook); local data paths rewritten to `../../data/...`; remote URLs and all code logic left unchanged. The 14 notebooks in `projects/` were later revised for methodology (see each project's README); the archive notebooks were not.
 
 ## Removed
 
@@ -61,6 +61,7 @@ Where every file from the previous layout went. Nothing was deleted without bein
 | `week8-30-june/day_4/day_4.ipynb` | `learning-archive/classical-ml/17-kmeans-elbow-blobs-wine-breast-cancer.ipynb` |
 | `week8-30-june/day_5/day_4.ipynb` | `learning-archive/classical-ml/18-kmeans-and-hierarchical-clustering-wine-and-customers.ipynb` |
 | `week8-30-june/day_5/Clus_Hierarchical_Credit_Card.ipynb` | `learning-archive/classical-ml/19-credit-card-customers-hierarchical-clustering.ipynb` |
+| `week5-9-june/day_4/2025_06_12.ipynb (original text, kept unedited)` | `learning-archive/classical-ml/20-air-quality-wine-feature-selection-and-outliers-draft.ipynb` |
 | `week4-2-june/day-2/2025_06_03.ipynb` | `learning-archive/data-collection/01-rest-api-requests-and-sqlalchemy.ipynb` |
 | `week4-2-june/day-3/2025_06_04.ipynb` | `learning-archive/data-collection/02-web-scraping-beautifulsoup-scrapy-and-lecture-slides.ipynb` |
 | `week4-2-june/day-3/books_scraper/books_scraper/__init__.py` | `learning-archive/data-collection/books_scraper/books_scraper/__init__.py` |

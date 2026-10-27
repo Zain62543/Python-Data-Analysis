@@ -1,6 +1,6 @@
 # Decision Trees on Iris
 
-Trains a decision tree classifier, shows overfitting versus underfitting as depth changes, inspects feature importance, tunes hyperparameters with `GridSearchCV` and compares the result with logistic regression.
+Trains a decision tree on Iris with a stratified split and a majority-class baseline, shows over-fitting with a cross-validated depth curve, compares impurity and permutation importance, tunes with `GridSearchCV` on the training data only, and compares against logistic regression with repeated CV and a single final test evaluation.
 
 | | |
 |---|---|
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 jupyter lab projects/decision-trees/decision-tree-iris-overfitting-and-tuning.ipynb
 ```
 
-- Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
+- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run (Python 3.13, scikit-learn 1.9, pandas 3.0).
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

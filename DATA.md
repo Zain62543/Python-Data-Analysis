@@ -4,7 +4,7 @@ All shared datasets live in this folder; notebooks reference them as `../../data
 
 | File | Rows x cols | Used by | Likely source | Notes |
 |---|---|---|---|---|
-| `air-quality.csv` | 153 x 5 | `projects/air-quality-missing-data`, `pandas-and-eda/07, 09, 10` | Matches R's built-in `airquality` dataset (New York, May-Sep 1973) | Verified: 153 rows, dates 1973-05-01 to 1973-09-30. |
+| `air-quality.csv` | 153 x 5 | `pandas-and-eda/07, 09, 10`; the project reads `airQuality.csv` | Matches R's built-in `airquality` dataset (New York, May-Sep 1973) | Verified: 153 rows, dates 1973-05-01 to 1973-09-30. |
 | `airQuality.csv` | 153 x 6 | `projects/air-quality-missing-data` | Reconstructed from `air-quality.csv` in the original Month/Day layout | The original upload was missing. The notebook's own transformation of this file reproduces `air-quality.csv` exactly (checked). |
 | `ansur_female.csv` | 1,986 x 109 | `pandas-and-eda/12` | ANSUR II female data (US Army) from github.com/senihberkay/US-Army-ANSUR-II | Notebook re-downloads it from that URL and writes `Ansur.csv`. |
 | `austin_weather.csv` | 12 x 67 | `pandas-and-eda/05` | Austin weather dataset (likely Kaggle) - verify |  |
@@ -17,7 +17,7 @@ All shared datasets live in this folder; notebooks reference them as `../../data
 | `credit_score.csv` | 99,960 x 21 | `deep-learning/02` | Credit-score features (resembles the Kaggle 'Credit score classification' data) - source unknown, verify | Was `Score.csv`. |
 | `diabetes.csv` | 768 x 9 | `pandas-and-eda/06` | Looks like the Pima Indians Diabetes dataset (UCI / Kaggle) - verify |  |
 | `flight_price_train_cleaned.xlsx` | 10,683 x 11 | `pandas-and-eda/08`, `11` | Cleaned flight-price training data (likely from the Kaggle flight-fare dataset) - verify | Derived file. |
-| `heart.csv` | 303 x 15 | (output of `deep-learning/02`) | UCI heart-disease data from github.com/sharmaroshan/Heart-UCI-Dataset | Written by the notebook (has an extra index column); the notebooks themselves download from the URL. |
+| `heart.csv` | 303 x 15 | `projects/ann-fundamentals`, `deep-learning/02` | UCI heart-disease data from github.com/sharmaroshan/Heart-UCI-Dataset | Written by the notebook with an extra index column; `projects/ann-fundamentals` now reads it locally with `index_col=0`. |
 | `mall_customers.csv` | 200 x 5 | `classical-ml/18` | Mall Customer Segmentation data (likely Kaggle) - verify |  |
 | `netflix_titles.csv` | 8,807 x 12 | `pandas-and-eda/13` | Netflix catalogue (Kaggle 'Netflix Movies and Tv Shows' layout) - verify | Newer, larger version. |
 | `netflix_titles_homework.csv` | 6,234 x 12 | `projects/netflix-data-cleaning` | Older version of the same catalogue; the notebook links to github.com/prasertcbs/basic-dataset | Source URL taken from the notebook. |
@@ -27,7 +27,7 @@ All shared datasets live in this folder; notebooks reference them as `../../data
 
 ## Datasets loaded at run time (not stored here)
 
-scikit-learn built-ins (Iris, Wine, breast cancer, California housing, covertype, blobs), Keras datasets (CIFAR-10, Fashion-MNIST, IMDB), `tensorflow_datasets` (Rock-Paper-Scissors), the cats-vs-dogs zip, and the heart-disease CSV URL.
+scikit-learn built-ins (Iris, Wine, breast cancer, California housing, covertype, blobs), Keras datasets (CIFAR-10, Fashion-MNIST, IMDB), `tensorflow_datasets` (Rock-Paper-Scissors), the cats-vs-dogs zip.
 
 ## Referenced by notebooks but not included
 
