@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environments and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter generated state
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Reference documents not required by the notebook collection
+*.pdf
+
+# Empty placeholder notebook
+/week6-16-june/day_1/MP.ipynb
+
+# Local Anaconda project browser database
+/anaconda_projects/
+
+# Generated presentations and unrelated dashboard workbook
+*.pptx
+/week6-16-june/day_4/Excel Dashboard.xlsx
+
