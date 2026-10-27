@@ -1,0 +1,9 @@
+beautifulsoup4
+scrapy
+sqlalchemy
+python-pptx
+pillow
+torch
+transformers
+openai
+huggingface_hub

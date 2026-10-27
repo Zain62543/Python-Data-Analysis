@@ -24,12 +24,12 @@ Thumbs.db
 *.pdf
 
 # Empty placeholder notebook
-/week6-16-june/day_1/MP.ipynb
+**/MP.ipynb
 
 # Local Anaconda project browser database
 /anaconda_projects/
 
 # Generated presentations and unrelated dashboard workbook
 *.pptx
-/week6-16-june/day_4/Excel Dashboard.xlsx
+**/Excel Dashboard.xlsx
 
