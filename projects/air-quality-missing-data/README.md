@@ -4,7 +4,7 @@ Visualises and analyses missing values in a daily air-quality time series, then 
 
 | | |
 |---|---|
-| **Notebook** | [`air-quality-missing-data.ipynb`](air-quality-missing-data.ipynb) |
+| **Notebook** | [`air-quality-missing-data-and-outliers.ipynb`](air-quality-missing-data-and-outliers.ipynb) |
 | **Data** | `data/air-quality.csv` (153 daily rows, May-Sep 1973: Ozone, Solar.R, Wind, Temp) and `data/airQuality.csv` (same data in its original Month/Day layout, reconstructed; see `DATA.md`) |
 | **Techniques** | Missing-data visualisation, outlier analysis, scaling, `SelectFromModel` with a random forest |
 | **Libraries** | pandas, missingno, SciPy, scikit-learn, Matplotlib |
@@ -14,7 +14,7 @@ Visualises and analyses missing values in a daily air-quality time series, then 
 ```bash
 # from the repository root
 pip install -r requirements.txt
-jupyter lab projects/air-quality-missing-data/air-quality-missing-data.ipynb
+jupyter lab projects/air-quality-missing-data/air-quality-missing-data-and-outliers.ipynb
 ```
 
 ## Notes

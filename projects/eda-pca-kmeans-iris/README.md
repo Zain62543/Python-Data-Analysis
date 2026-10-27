@@ -4,7 +4,7 @@ A structured exploratory analysis of the Iris dataset (structure, summary statis
 
 | | |
 |---|---|
-| **Notebook** | [`eda-pca-kmeans-iris.ipynb`](eda-pca-kmeans-iris.ipynb) |
+| **Notebook** | [`iris-eda-pca-and-kmeans.ipynb`](iris-eda-pca-and-kmeans.ipynb) |
 | **Data** | scikit-learn `load_iris`, `make_blobs` |
 | **Techniques** | EDA, dimensionality reduction (PCA), K-Means clustering |
 | **Libraries** | pandas, scikit-learn, Matplotlib |
@@ -14,7 +14,7 @@ A structured exploratory analysis of the Iris dataset (structure, summary statis
 ```bash
 # from the repository root
 pip install -r requirements.txt
-jupyter lab projects/eda-pca-kmeans-iris/eda-pca-kmeans-iris.ipynb
+jupyter lab projects/eda-pca-kmeans-iris/iris-eda-pca-and-kmeans.ipynb
 ```
 
 ## Notes

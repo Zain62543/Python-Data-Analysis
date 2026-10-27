@@ -4,7 +4,7 @@ Trains a decision tree classifier, shows overfitting versus underfitting as dept
 
 | | |
 |---|---|
-| **Notebook** | [`decision-trees.ipynb`](decision-trees.ipynb) |
+| **Notebook** | [`decision-tree-iris-overfitting-and-tuning.ipynb`](decision-tree-iris-overfitting-and-tuning.ipynb) |
 | **Data** | scikit-learn `load_iris` |
 | **Techniques** | Decision trees, tree plots, `GridSearchCV`, model comparison |
 | **Libraries** | scikit-learn, pandas, Seaborn, Matplotlib |
@@ -14,7 +14,7 @@ Trains a decision tree classifier, shows overfitting versus underfitting as dept
 ```bash
 # from the repository root
 pip install -r requirements.txt
-jupyter lab projects/decision-trees/decision-trees.ipynb
+jupyter lab projects/decision-trees/decision-tree-iris-overfitting-and-tuning.ipynb
 ```
 
 - Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.

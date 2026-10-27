@@ -4,7 +4,7 @@ Runs 5-fold cross-validation for logistic regression and a decision tree, then e
 
 | | |
 |---|---|
-| **Notebook** | [`cross-validation-and-grid-search.ipynb`](cross-validation-and-grid-search.ipynb) |
+| **Notebook** | [`cross-validation-and-gridsearch-breast-cancer.ipynb`](cross-validation-and-gridsearch-breast-cancer.ipynb) |
 | **Data** | scikit-learn `load_breast_cancer` |
 | **Techniques** | k-fold cross-validation, hyperparameter search |
 | **Libraries** | scikit-learn, pandas, Seaborn, Matplotlib |
@@ -14,7 +14,7 @@ Runs 5-fold cross-validation for logistic regression and a decision tree, then e
 ```bash
 # from the repository root
 pip install -r requirements.txt
-jupyter lab projects/cross-validation-and-grid-search/cross-validation-and-grid-search.ipynb
+jupyter lab projects/cross-validation-and-grid-search/cross-validation-and-gridsearch-breast-cancer.ipynb
 ```
 
 - Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.

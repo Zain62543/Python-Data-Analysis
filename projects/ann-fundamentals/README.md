@@ -4,7 +4,7 @@ Builds up from logistic regression to softmax (multiclass) regression and the pe
 
 | | |
 |---|---|
-| **Notebook** | [`road-to-ann.ipynb`](road-to-ann.ipynb) |
+| **Notebook** | [`softmax-regression-to-perceptron-wine-and-heart.ipynb`](softmax-regression-to-perceptron-wine-and-heart.ipynb) |
 | **Data** | scikit-learn `load_iris`, `load_wine`, `make_classification`; heart-disease CSV downloaded from GitHub at run time |
 | **Techniques** | Softmax regression, perceptron, Keras `Dense` layers |
 | **Libraries** | TensorFlow/Keras, scikit-learn, pandas, Seaborn |
@@ -14,7 +14,7 @@ Builds up from logistic regression to softmax (multiclass) regression and the pe
 ```bash
 # from the repository root
 pip install -r requirements.txt -r requirements-deep-learning.txt
-jupyter lab projects/ann-fundamentals/road-to-ann.ipynb
+jupyter lab projects/ann-fundamentals/softmax-regression-to-perceptron-wine-and-heart.ipynb
 ```
 
 ## Notes

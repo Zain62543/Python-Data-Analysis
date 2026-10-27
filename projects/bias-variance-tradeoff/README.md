@@ -1,12 +1,12 @@
 # Bias, Variance and Over/Underfitting
 
-Explains total error, bias, variance and the trade-off between them, demonstrates over- and underfitting through training versus testing accuracy, and introduces ensemble ideas (bagging, random forests, boosting).
+Explains total error, bias, variance and the trade-off between them. Polynomial fits of degree 1, 3 and 10 on noisy cubic data show under- and overfitting; a `BaggingClassifier` of decision trees on the breast-cancer dataset (with ROC AUC) shows how ensembling reduces variance.
 
 | | |
 |---|---|
-| **Notebook** | [`bias-variance-tradeoff.ipynb`](bias-variance-tradeoff.ipynb) |
-| **Data** | scikit-learn `load_breast_cancer` |
-| **Techniques** | Bias-variance decomposition, over/underfitting, ensembles (intro) |
+| **Notebook** | [`bias-variance-polynomial-fits-and-bagging.ipynb`](bias-variance-polynomial-fits-and-bagging.ipynb) |
+| **Data** | synthetic noisy cubic data; scikit-learn `load_breast_cancer` |
+| **Techniques** | Bias-variance trade-off, polynomial regression, bagging |
 | **Libraries** | scikit-learn, pandas, Seaborn, Matplotlib |
 
 ## Run it
@@ -14,7 +14,7 @@ Explains total error, bias, variance and the trade-off between them, demonstrate
 ```bash
 # from the repository root
 pip install -r requirements.txt
-jupyter lab projects/bias-variance-tradeoff/bias-variance-tradeoff.ipynb
+jupyter lab projects/bias-variance-tradeoff/bias-variance-polynomial-fits-and-bagging.ipynb
 ```
 
 - Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.

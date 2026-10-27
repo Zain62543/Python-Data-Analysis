@@ -4,7 +4,7 @@ Builds CNN image classifiers with the Keras functional API on CIFAR-10, visualis
 
 | | |
 |---|---|
-| **Notebook** | [`cnn-image-classification.ipynb`](cnn-image-classification.ipynb) |
+| **Notebook** | [`cnn-cifar10-and-rock-paper-scissors.ipynb`](cnn-cifar10-and-rock-paper-scissors.ipynb) |
 | **Data** | CIFAR-10 (`keras.datasets`), Rock-Paper-Scissors (`tensorflow_datasets`), both downloaded at run time |
 | **Techniques** | Conv2D / pooling networks, Keras functional API, feature visualisation |
 | **Libraries** | TensorFlow/Keras, tensorflow-datasets, Matplotlib |
@@ -14,7 +14,7 @@ Builds CNN image classifiers with the Keras functional API on CIFAR-10, visualis
 ```bash
 # from the repository root
 pip install -r requirements.txt -r requirements-deep-learning.txt
-jupyter lab projects/cnn-image-classification/cnn-image-classification.ipynb
+jupyter lab projects/cnn-image-classification/cnn-cifar10-and-rock-paper-scissors.ipynb
 ```
 
 ## Notes

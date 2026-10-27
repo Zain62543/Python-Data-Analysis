@@ -4,7 +4,7 @@ Uses Keras Tuner's `RandomSearch` to tune an ANN and a CNN (Fashion-MNIST and CI
 
 | | |
 |---|---|
-| **Notebook** | [`keras-tuner-hyperparameter-search.ipynb`](keras-tuner-hyperparameter-search.ipynb) |
+| **Notebook** | [`keras-tuner-ann-fashion-mnist-and-cnn-cifar10.ipynb`](keras-tuner-ann-fashion-mnist-and-cnn-cifar10.ipynb) |
 | **Data** | Fashion-MNIST and CIFAR-10 (`keras.datasets`), downloaded at run time |
 | **Techniques** | Random search, hyperparameter spaces, final retraining |
 | **Libraries** | TensorFlow/Keras, keras-tuner |
@@ -14,7 +14,7 @@ Uses Keras Tuner's `RandomSearch` to tune an ANN and a CNN (Fashion-MNIST and CI
 ```bash
 # from the repository root
 pip install -r requirements.txt -r requirements-deep-learning.txt
-jupyter lab projects/keras-tuner-hyperparameter-search/keras-tuner-hyperparameter-search.ipynb
+jupyter lab projects/keras-tuner-hyperparameter-search/keras-tuner-ann-fashion-mnist-and-cnn-cifar10.ipynb
 ```
 
 ## Notes

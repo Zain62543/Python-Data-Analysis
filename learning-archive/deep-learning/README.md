@@ -1,17 +1,17 @@
 # Deep learning
 
-Perceptron and ANNs, a PyTorch salary model, a Rock-Paper-Scissors CNN, RNN / LSTM / GRU, and a forest-cover neural network.
+ANN concepts, the perceptron, Keras ANNs (housing, bank marketing, forest cover), a PyTorch salary regression, a Rock-Paper-Scissors CNN, and RNN / LSTM / GRU on IMDB reviews.
 
 Notebooks are numbered in the order they were worked through. Original week/day locations are listed in [`MIGRATION.md`](../../MIGRATION.md).
 
-- [`01-ann-introduction.ipynb`](01-ann-introduction.ipynb)
-- [`02-perceptron.ipynb`](02-perceptron.ipynb)
-- [`03-ann-hands-on.ipynb`](03-ann-hands-on.ipynb)
-- [`04-salary-prediction-pytorch.ipynb`](04-salary-prediction-pytorch.ipynb)
-- [`05-rock-paper-scissors-cnn.ipynb`](05-rock-paper-scissors-cnn.ipynb)
-- [`06-rnn-lstm-gru.ipynb`](06-rnn-lstm-gru.ipynb)
-- [`07-forest-cover-neural-network.ipynb`](07-forest-cover-neural-network.ipynb)
-- [`08-forest-cover-lecture.ipynb`](08-forest-cover-lecture.ipynb)
+- [`01-ann-concepts-and-softmax-logistic-regression.ipynb`](01-ann-concepts-and-softmax-logistic-regression.ipynb)
+- [`02-perceptron-credit-score-and-keras-heart-intro.ipynb`](02-perceptron-credit-score-and-keras-heart-intro.ipynb)
+- [`03-keras-ann-california-housing-and-bank-marketing.ipynb`](03-keras-ann-california-housing-and-bank-marketing.ipynb)
+- [`04-pytorch-salary-regression.ipynb`](04-pytorch-salary-regression.ipynb)
+- [`05-cnn-rock-paper-scissors.ipynb`](05-cnn-rock-paper-scissors.ipynb)
+- [`06-rnn-lstm-gru-imdb-sentiment.ipynb`](06-rnn-lstm-gru-imdb-sentiment.ipynb)
+- [`07-keras-ann-forest-cover-type.ipynb`](07-keras-ann-forest-cover-type.ipynb)
+- [`08-keras-ann-forest-cover-and-fashion-mnist.ipynb`](08-keras-ann-forest-cover-and-fashion-mnist.ipynb)
 
 These are practice notebooks: some contain exploratory or unfinished cells, and saved outputs are from the original runs.
 

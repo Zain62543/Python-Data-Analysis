@@ -4,7 +4,7 @@ Contrasts bagging with random forests and gradient boosting (intuition, advantag
 
 | | |
 |---|---|
-| **Notebook** | [`random-forests-and-boosting.ipynb`](random-forests-and-boosting.ipynb) |
+| **Notebook** | [`random-forest-vs-gradient-boosting-breast-cancer.ipynb`](random-forest-vs-gradient-boosting-breast-cancer.ipynb) |
 | **Data** | scikit-learn `load_breast_cancer` |
 | **Techniques** | Random forest, gradient boosting, ROC comparison |
 | **Libraries** | scikit-learn, pandas, Seaborn, Matplotlib |
@@ -14,7 +14,7 @@ Contrasts bagging with random forests and gradient boosting (intuition, advantag
 ```bash
 # from the repository root
 pip install -r requirements.txt
-jupyter lab projects/random-forests-and-boosting/random-forests-and-boosting.ipynb
+jupyter lab projects/random-forests-and-boosting/random-forest-vs-gradient-boosting-breast-cancer.ipynb
 ```
 
 - Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.

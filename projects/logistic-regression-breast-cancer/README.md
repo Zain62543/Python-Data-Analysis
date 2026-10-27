@@ -4,7 +4,7 @@ Fits scikit-learn's logistic regression on the breast-cancer dataset with scalin
 
 | | |
 |---|---|
-| **Notebook** | [`logistic-regression-breast-cancer.ipynb`](logistic-regression-breast-cancer.ipynb) |
+| **Notebook** | [`logistic-regression-sklearn-and-from-scratch.ipynb`](logistic-regression-sklearn-and-from-scratch.ipynb) |
 | **Data** | scikit-learn `load_breast_cancer`, `make_classification` |
 | **Techniques** | Logistic regression, gradient descent, evaluation metrics |
 | **Libraries** | scikit-learn, NumPy, pandas, Matplotlib |
@@ -14,7 +14,7 @@ Fits scikit-learn's logistic regression on the breast-cancer dataset with scalin
 ```bash
 # from the repository root
 pip install -r requirements.txt
-jupyter lab projects/logistic-regression-breast-cancer/logistic-regression-breast-cancer.ipynb
+jupyter lab projects/logistic-regression-breast-cancer/logistic-regression-sklearn-and-from-scratch.ipynb
 ```
 
 - Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.

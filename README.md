@@ -22,9 +22,9 @@ Each project folder has a short README (data, techniques, libraries, how to run)
 |---|---|---|
 | [Decision Trees on Iris](projects/decision-trees/) | Over/underfitting, feature importance, tuning | scikit-learn `load_iris` |
 | [Logistic Regression: scikit-learn and From Scratch](projects/logistic-regression-breast-cancer/) | scikit-learn model plus a from-scratch implementation | scikit-learn `load_breast_cancer`, `make_classification` |
-| [Evaluation Metrics for Regression and Classification](projects/classification-evaluation-metrics/) | MAE/RMSE/R², confusion-matrix metrics, ROC AUC | scikit-learn `load_breast_cancer` |
+| [Regression and Classification Metrics](projects/regression-and-classification-metrics/) | MAE/RMSE/R², confusion-matrix metrics, ROC AUC | toy arrays for regression |
 | [Cross-Validation and GridSearchCV](projects/cross-validation-and-grid-search/) | k-fold CV and GridSearchCV explained step by step | scikit-learn `load_breast_cancer` |
-| [Bias, Variance and Over/Underfitting](projects/bias-variance-tradeoff/) | Bias, variance and ensembles | scikit-learn `load_breast_cancer` |
+| [Bias, Variance and Over/Underfitting](projects/bias-variance-tradeoff/) | Bias, variance and ensembles | synthetic noisy cubic data |
 | [Random Forests and Gradient Boosting](projects/random-forests-and-boosting/) | Bagging vs random forest vs gradient boosting | scikit-learn `load_breast_cancer` |
 
 **Unsupervised learning**

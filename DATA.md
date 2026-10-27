@@ -31,7 +31,7 @@ scikit-learn built-ins (Iris, Wine, breast cancer, California housing, covertype
 
 ## Referenced by notebooks but not included
 
-- `ds_salaries.csv` (`deep-learning/04-salary-prediction-pytorch.ipynb`)
-- `glove.6B.50d.txt` (`deep-learning/06-rnn-lstm-gru.ipynb`; download GloVe 6B 50d vectors from the Stanford NLP site)
-- `sample.txt`, `class_names.dat` (`python-fundamentals/11-file-handling.ipynb`; created by earlier cells)
-- `/content/HSAQ_PP_2023_AUG.png` (`llm-apis/01-gpt2-text-generation.ipynb`; a Colab upload)
+- `ds_salaries.csv` (`deep-learning/04-pytorch-salary-regression.ipynb`)
+- `glove.6B.50d.txt` (`deep-learning/06-rnn-lstm-gru-imdb-sentiment.ipynb`; download GloVe 6B 50d vectors from the Stanford NLP site)
+- `sample.txt`, `class_names.dat` (`python-fundamentals/11-file-read-write-and-os-directories.ipynb`; created by earlier cells)
+- `/content/HSAQ_PP_2023_AUG.png` (`llm-apis/01-text-generation-gpt2-gptj-and-phi2.ipynb`; a Colab upload)

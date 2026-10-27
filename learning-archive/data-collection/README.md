@@ -4,8 +4,8 @@ REST APIs and SQL (SQLAlchemy), web scraping with requests / BeautifulSoup, and 
 
 Notebooks are numbered in the order they were worked through. Original week/day locations are listed in [`MIGRATION.md`](../../MIGRATION.md).
 
-- [`01-rest-apis-and-sql.ipynb`](01-rest-apis-and-sql.ipynb)
-- [`02-web-scraping.ipynb`](02-web-scraping.ipynb)
+- [`01-rest-api-requests-and-sqlalchemy.ipynb`](01-rest-api-requests-and-sqlalchemy.ipynb)
+- [`02-web-scraping-beautifulsoup-scrapy-and-lecture-slides.ipynb`](02-web-scraping-beautifulsoup-scrapy-and-lecture-slides.ipynb)
 
 Scrapy project: [`books_scraper/`](books_scraper/) and standalone spiders in [`scrapy-spiders/`](scrapy-spiders/)
 

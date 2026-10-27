@@ -4,7 +4,7 @@ Covers the intuition and maths of agglomerative clustering: distance metrics, li
 
 | | |
 |---|---|
-| **Notebook** | [`hierarchical-clustering.ipynb`](hierarchical-clustering.ipynb) |
+| **Notebook** | [`hierarchical-clustering-linkage-and-dendrograms.ipynb`](hierarchical-clustering-linkage-and-dendrograms.ipynb) |
 | **Data** | scikit-learn `load_iris`, `make_blobs` |
 | **Techniques** | Agglomerative clustering, dendrograms, linkage methods, PCA |
 | **Libraries** | scikit-learn, SciPy, pandas, Seaborn, Matplotlib |
@@ -14,7 +14,7 @@ Covers the intuition and maths of agglomerative clustering: distance metrics, li
 ```bash
 # from the repository root
 pip install -r requirements.txt
-jupyter lab projects/hierarchical-clustering/hierarchical-clustering.ipynb
+jupyter lab projects/hierarchical-clustering/hierarchical-clustering-linkage-and-dendrograms.ipynb
 ```
 
 - Saved outputs are from the original runs; the notebook was not re-executed after the repository was reorganised.
