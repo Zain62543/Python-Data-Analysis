@@ -2,7 +2,7 @@
 
 Hands-on notebooks covering Python, pandas and EDA, classical machine learning and deep learning, organised as **14 documented projects** plus a topic-grouped **learning archive**.
 
-> **About this material.** These notebooks come from a structured data-science and AI training programme (May-August 2025). Most use standard teaching datasets such as Iris, breast cancer and CIFAR-10, so they show how I work through methods rather than client deliverables. For packaged, tested code, see [ML Classification Benchmark](https://github.com/Zain62543/Random-forest-classifiers-).
+> **About this material.** These notebooks come from a structured data-science and AI training programme (May-August 2025). Most use standard teaching datasets such as Iris, breast cancer and CIFAR-10, so they show how I work through methods rather than client deliverables. For packaged, tested code, see [ML Classification Benchmark](https://github.com/Zain62543/ml-classification-benchmark).
 
 ## Featured projects
 
