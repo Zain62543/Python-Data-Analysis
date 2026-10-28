@@ -88,4 +88,4 @@ Dataset sources and caveats are in [DATA.md](DATA.md). No licence has been chose
 
 **Zain Ud Din** - MPhil Physics (Condensed Matter Physics) | Data Science, Machine Learning & Scientific Computing
 
-[LinkedIn](https://www.linkedin.com/in/zain-ud-din-9152a2299/) · [GitHub profile](https://github.com/Zain62543)
+[LinkedIn](https://www.linkedin.com/in/zain-ud-din/) · [GitHub profile](https://github.com/Zain62543)
