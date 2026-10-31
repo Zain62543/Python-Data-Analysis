@@ -20,7 +20,7 @@ jupyter lab projects/air-quality-missing-data/air-quality-missing-data-and-outli
 ## Notes
 
 - The earlier draft that also covered Wine feature selection is kept unedited in `learning-archive/classical-ml/20-...`.
-- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run (Python 3.13, scikit-learn 1.9, pandas 3.0).
+- Methodology reviewed and revised; the notebook was **executed end-to-end** and the saved outputs come from that run.
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

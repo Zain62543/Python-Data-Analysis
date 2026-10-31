@@ -19,8 +19,7 @@ jupyter lab projects/ann-fundamentals/softmax-regression-to-perceptron-wine-and-
 
 ## Notes
 
-- The scikit-learn cells are executed with saved outputs. The Keras cells need TensorFlow (`requirements-deep-learning.txt`) and have cleared outputs until re-run.
-- Methodology reviewed and revised. The scikit-learn cells were **executed** and their outputs saved; the Keras cells were revised but **not re-run** (TensorFlow unavailable) and have cleared outputs.
+- Methodology reviewed and revised. The notebook was **executed end-to-end** (the Keras cells on a Colab GPU) and all outputs are saved. Keras results vary slightly between runs; the cross-validated scikit-learn tables are the more reliable comparison.
 - Data paths are relative (`../../data/...`) so the notebook runs from its own folder.
 
 [Back to all projects](../../README.md)

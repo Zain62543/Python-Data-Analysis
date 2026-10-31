@@ -37,7 +37,7 @@ Each project folder has a short README (data, techniques, libraries, how to run)
 
 | Project | What it shows | Data |
 |---|---|---|
-| [Road to Artificial Neural Networks](projects/ann-fundamentals/) | Logistic regression to perceptron to a Keras neuron, with baselines | scikit-learn `load_iris`, `load_wine`, `make_classification` |
+| [Road to Artificial Neural Networks](projects/ann-fundamentals/) | Logistic regression to perceptron to a Keras neuron, with baselines (executed) | scikit-learn `load_iris`, `load_wine`, `make_classification` |
 | [Convolutional Neural Networks](projects/cnn-image-classification/) | CNNs on CIFAR-10 and Rock-Paper-Scissors (revised, not re-run) | CIFAR-10 |
 | [Hyperparameter Tuning with Keras Tuner](projects/keras-tuner-hyperparameter-search/) | Random-search tuning of ANN and CNN models (revised, not re-run) | Fashion-MNIST and CIFAR-10 |
 | [Transfer Learning: Feature Extraction and Fine-Tuning](projects/transfer-learning/) | VGG16 feature extraction, two-stage ResNet50 fine-tuning (not yet run) | `cats_and_dogs_filtered.zip` |
@@ -75,7 +75,7 @@ Open a notebook from its own folder; data paths are relative to it. Deep-learnin
 
 ## Reliability notes
 
-- **Projects:** the 14 notebooks in `projects/` were reviewed for methodology (leakage, baselines, honest evaluation). The 10 scikit-learn / pandas notebooks, and the scikit-learn cells of the ANN notebook, were re-executed and their outputs regenerated. The remaining TensorFlow cells (CNN, Keras Tuner, transfer learning, Keras part of ANN) were revised but could not be run in the environment used; their READMEs and in-notebook banners say exactly which outputs are stale or cleared. Run them once on a GPU runtime to regenerate.
+- **Projects:** the 14 notebooks in `projects/` were reviewed for methodology (leakage, baselines, honest evaluation). The 10 scikit-learn / pandas notebooks were re-executed and their outputs regenerated, and the ANN notebook was executed on Colab. The three remaining TensorFlow notebooks (CNN, Keras Tuner, transfer learning) were revised but could not be run in the environment used; their READMEs and in-notebook banners say exactly which outputs are stale or cleared. Run them once on a GPU runtime to regenerate.
 - **Learning archive:** saved outputs are from the original runs and were not re-executed.
 - `python scripts/check_notebooks.py` checks that every notebook is valid and that every local data file it references exists. It does not execute code.
 - Library versions are not pinned, because the notebooks were written in 2025 and some APIs have since changed.
