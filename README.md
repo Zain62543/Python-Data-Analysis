@@ -82,7 +82,7 @@ Open a notebook from its own folder; data paths are relative to it. Deep-learnin
 
 ## Data and licence
 
-Dataset sources and caveats are in [DATA.md](DATA.md). No licence has been chosen for this repository yet, so please contact me before reusing the notebooks, and check each dataset's own terms.
+Dataset sources and caveats are in [DATA.md](DATA.md). The notebooks and code are released under the [MIT License](LICENSE). The datasets are third-party and keep their own licences and terms, so check each one before redistributing it.
 
 ## Author
 
